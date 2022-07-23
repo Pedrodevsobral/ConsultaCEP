@@ -24,15 +24,12 @@ $result = json_decode($response, true);
 
 curl_close($curl);
 
-print_r($result);
+//print_r($result);
 
+echo '<h2>'.$result['cep'].'</h2>';
+echo 'Endereço: ' .$result['logradouro'] . '<br>'; 
+echo 'Bairro: '   .$result['bairro'] . '<br>'; 
+echo 'Cidade: ' . $result['localidade'] . ' UF: ' . $result['uf'] . '<br>';
+echo 'Códido da Cidade: ' .$result['siafi']; 
 
-
-
-
-
-
-
-
-
-
+echo '<br><br><a href="index.html">Voltar!</a>'; 
