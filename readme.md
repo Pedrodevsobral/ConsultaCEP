@@ -1,5 +1,5 @@
 ---
-modified: 2022-07-23T17:33:34.776Z
+modified: 2022-07-23T17:48:21.305Z
 title: null
 ---
 
@@ -58,9 +58,8 @@ $(document).ready(function(){
   $('.selectonfocus').mask("00/00/0000", {selectOnFocus: true});
 });
 ```
-
-Implementado por: Pedro Henrique
-pedrodevphp@gmail.com
+### Desenvolvedor
+| [<img src="https://avatars0.githubusercontent.com/u/32919057?s=100"><br><sub>Pedro Henrique</sub>](https://github.com/Pedrodevsobral) |
 
 
 
