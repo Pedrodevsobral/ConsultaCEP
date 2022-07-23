@@ -12,10 +12,14 @@
 </head>
 <body>
     <div class="container">
-        <p><span>*</span>Informe um cep, e retorne dados do CEP inserido.</p>
+        <div class="jumbotron">
+            <h1 class="display-4">Consumindo API</h1>
+            <p class="lead">Consumundo API via CEP, modelo implementado em PHP.</p>
+            <hr class="my-4">
+            <p>Insira um CEP, e o sistema retorna dados da consulta em formato de Array.</p>
+          </div>
         <form action="/response.php" method="post">
             <fieldset>
-                <legend>Insira um CEP para Consulta:</legend>
                 <label for="placa" class="form-label">
                     CEP:
                     <input type="text" name="cep" class="form-control cep" placeholder="xxxxxx-xxx" required>
