@@ -1,0 +1,56 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'pdev/consultacep',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'components/jquery' => array(
+            'pretty_version' => '3.6.0',
+            'version' => '3.6.0.0',
+            'type' => 'component',
+            'install_path' => __DIR__ . '/../components/jquery',
+            'aliases' => array(),
+            'reference' => '6cf38ee1fd04b6adf8e7dda161283aa35be818c3',
+            'dev_requirement' => false,
+        ),
+        'igorescobar/jquery-mask-plugin' => array(
+            'pretty_version' => 'v1.14.1',
+            'version' => '1.14.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../igorescobar/jquery-mask-plugin',
+            'aliases' => array(),
+            'reference' => '678a7df1f0bb275ce53f365b91af99d86850978d',
+            'dev_requirement' => false,
+        ),
+        'pdev/consultacep' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'twbs/bootstrap' => array(
+            'pretty_version' => '5.2.0',
+            'version' => '5.2.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../twbs/bootstrap',
+            'aliases' => array(),
+            'reference' => 'edf9c40956d19e6ab3f9151bfe0dfac6be06fa21',
+            'dev_requirement' => false,
+        ),
+        'twitter/bootstrap' => array(
+            'dev_requirement' => false,
+            'replaced' => array(
+                0 => '5.2.0',
+            ),
+        ),
+    ),
+);

@@ -1,0 +1,20 @@
+{
+    "name": "pdev/consultacep",
+    "description": "Consulta CEP informado no INPUT e retorna dados em array.",
+    "autoload": {
+        "psr-4": {
+            "Pdev\\Consultacep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pedro Dev",
+            "email": "32919057+Pedrodevsobral@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "components/jquery": "^3.6",
+        "igorescobar/jquery-mask-plugin": "^1.14",
+        "twbs/bootstrap": "^5.2"
+    }
+}

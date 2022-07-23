@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="/vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
+    <script src="/vendor/components/jquery/jquery.min.js"></script>
+    <script src="/vendor/igorescobar/jquery-mask-plugin/src/jquery.mask.js"></script>
+    <script src="/src/include.js"></script>
+</head>
+<body>
+    <div class="container">
+        <p><span>*</span>Informe um cep, e retorne dados do CEP inserido.</p>
+        <form action="/response.php" method="post">
+            <fieldset>
+                <legend>Insira um CEP para Consulta:</legend>
+                <label for="placa" class="form-label">
+                    CEP:
+                    <input type="text" name="cep" class="form-control cep" placeholder="xxxxxx-xxx" required>
+                </label>
+            </fieldset>
+            <button type="submit" class="btn btn-primary">Consultar</button>
+            <button type="reset" class="btn btn-info">Limpar Dados</button>
+        </form>
+    </div>
+    <div>
+        
+    </div>
+    <script src="/vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
